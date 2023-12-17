@@ -1,0 +1,47 @@
+.pricipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+  }
+  .left{
+    width: 790px;
+  }
+  .left .transf{
+    padding-top: 70px;
+   padding-bottom: 10px;
+   font-style: italic;
+  }
+  .left .p2{
+    padding-top: 10px;
+  }
+  .left h1{
+    padding-left: 100px;
+  }
+  span{
+    /* color:rgb(47, 105, 230); */
+    color: rgb(238, 172, 49);
+  }
+  .left p{
+    padding-left: 100px;
+  }
+  .left .click{
+    padding-left: 120px;
+    padding-top: 20px;
+  }
+  .click a{
+    color: rgb(247, 244, 244);  
+  }
+  .click a:nth-child(2){
+    border: 5px solid rgb(238, 172, 49);
+    border-radius: 5px;
+    background-color: rgb(238, 172, 49);
+  }
+  .click a:nth-child(1){
+    /* color: rgb(47, 105, 230); */
+    color: rgb(238, 172, 49);
+    text-decoration: underline;
+  }
+  .right{
+    width: 790px;
+  }

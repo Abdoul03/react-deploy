@@ -1,0 +1,25 @@
+.footer{
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(49, 30, 11);
+    padding-top: 9px;
+  }
+  .socaux{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    color: aliceblue ;
+  }
+  .socaux h2{
+    color: rgb(238, 172, 49);
+  }
+  .socaux a{
+    margin-right: 15px;
+    color: aliceblue ;
+    font-size: 15px;
+  }
+  .socaux a:hover{
+    transition: 0.5s;
+    color: lightgreen;
+  }

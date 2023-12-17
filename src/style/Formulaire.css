@@ -1,0 +1,32 @@
+.form{
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  .text{
+    padding-left: 40px;
+    padding-bottom: 15px;
+    color: rgb(238, 172, 49);
+  }
+  label{
+    color: aliceblue;
+    font-size: medium;
+    margin-left: 15px;
+  }
+  input{
+    margin-right: 15px;
+  }
+  .bouton{
+    padding-top: 40px;
+    padding-right: 80px;
+  }
+  .bouton a{
+    border-radius: 30px;
+    background-color: rgb(238, 172, 49);
+    color: rgb(247, 244, 244);
+    padding: 10px 20px;
+  }
+  .bouton a:hover{
+    border: 2px solid rgb(49, 30, 11);
+    transition: 0.5s;
+    color: rgb(49, 30, 11);
+  }

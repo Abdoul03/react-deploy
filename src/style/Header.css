@@ -1,0 +1,56 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 30px;
+  }
+  /* logo Disign */
+  .logo h2 a{
+    color: rgb(238, 172, 49);
+  }
+  .logo h2 a:hover{
+   color: rgb(49, 30, 11);
+  }
+  .e{
+    color: rgb(49, 30, 11);
+  }
+  .e:hover{
+    color: rgb(238, 172, 49);
+  }
+  .header a{
+    text-decoration: none;
+    color: rgb(49, 30, 11);
+  }
+  .header a:hover{
+    /* color: lightgreen; */
+    color: rgb(238, 172, 49);
+  }
+  .menu  nav{
+    width: 506px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .menu  nav a{
+    margin-left: 15px;
+    font-size: 18px;
+    padding-top: 9px; 
+  }
+  .connection a{
+    width: 400px;
+    font-size: 18px;
+    margin-left: 12px; 
+    padding-top: 9px; 
+    text-align: center;
+  }
+  .connection a:nth-child(2){
+    border-radius: 50px;
+    background-color: rgb(238, 172, 49);
+    color: rgb(247, 244, 244);
+    padding: 10px 20px;
+  }
+  .connection a:nth-child(2):hover{
+    border: 2px solid rgb(49, 30, 11);
+    transition: 0.5s;
+    color: rgb(49, 30, 11);
+  }
